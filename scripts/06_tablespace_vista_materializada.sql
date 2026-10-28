@@ -4,7 +4,7 @@
 --   B) Vista materializada MV_OCUPACION_MENSUAL + politica de refresco
 -- Ejecutar despues de 05_disparadores.sql, como script (F5).
 -- Requiere un usuario con privilegios CREATE TABLESPACE, CREATE MATERIALIZED
--- VIEW y CREATE JOB (por ejemplo SYSTEM, o el usuario creado con 00_usuario).
+-- VIEW y CREATE JOB (por ejemplo SYSTEM).
 -- ============================================================================
 
 SET SERVEROUTPUT ON;

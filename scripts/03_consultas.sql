@@ -2,7 +2,7 @@
 -- TurismoUQ - 03_consultas.sql - Siete consultas de analisis
 -- Sin vistas, sin WITH, sin CONNECT BY. Solo SELECT, JOIN, GROUP BY y las
 -- funciones pedidas (PIVOT, ROLLUP/GROUPING, RANK, LAG, bind, UNPIVOT).
--- Ejecutar como script (F5) en SQL Developer o con @03_consultas.sql en SQL*Plus.
+-- Ejecutar como script (F5)
 -- ----------------------------------------------------------------------------
 -- CORRECCIONES FRENTE A LA ENTREGA 1 (observaciones de la docente):
 --   * C2: las temporadas ahora cubren todos los dias (ver 02_datos.sql), asi

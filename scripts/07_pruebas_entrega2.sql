@@ -16,8 +16,8 @@
 --   P8  Vista materializada               (15 %)
 -- ============================================================================
 
--- Cambie la ruta si quiere el archivo en otra carpeta (ej. C:\turismouq\evidencias\...)
-SPOOL 07_resultado_pruebas.txt
+
+SPOOL "C:\Users\Valery\Documents\Septimo Semestre\bases2\turismouq\evidencias\07_resultado_pruebas.txt"
 
 SET SERVEROUTPUT ON SIZE UNLIMITED;
 SET DEFINE OFF;

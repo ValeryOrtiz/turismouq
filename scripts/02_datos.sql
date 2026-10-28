@@ -2,7 +2,6 @@
 -- TurismoUQ - 02_datos.sql
 -- Carga de datos con PL/SQL y DBMS_RANDOM (volumen minimo y datos asimetricos)
 -- Ejecutar despues de 01_ddl.sql, como script completo (F5 en SQL Developer).
--- Tiempo aproximado: 2 a 5 minutos.
 -- ----------------------------------------------------------------------------
 -- CORRECCIONES FRENTE A LA ENTREGA 1 (observaciones de la docente):
 --   1. TEMPORADA cubre TODOS los dias de 2024, 2025, 2026 y 2027, sin huecos
