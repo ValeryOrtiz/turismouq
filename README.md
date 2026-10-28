@@ -11,7 +11,6 @@ Ejecutar cada script completo (F5 en SQL Developer, o `@archivo.sql` en SQL*Plus
 
 | # | Script | Entrega | Qué hace |
 |---|--------|---------|----------|
-| 00 | `scripts/00_usuario_opcional.sql` | — | *(Opcional, como SYSTEM)* crea el usuario `TURISMOUQ` con los privilegios necesarios |
 | 01 | `scripts/01_ddl.sql` | 1 (corregida) | Borra lo que exista y crea las 16 tablas con PK, FK, CHECK, NOT NULL y UNIQUE |
 | 02 | `scripts/02_datos.sql` | 1 (corregida) | Carga el volumen mínimo con PL/SQL y DBMS_RANDOM (2 a 5 min) |
 | 03 | `scripts/03_consultas.sql` | 1 (corregida) | Las 7 consultas de análisis |
@@ -22,7 +21,7 @@ Ejecutar cada script completo (F5 en SQL Developer, o `@archivo.sql` en SQL*Plus
 
 La evidencia de la ejecución está en `evidencias/`.
 
-Privilegios necesarios: CREATE TABLE, VIEW, SEQUENCE, PROCEDURE, TRIGGER, MATERIALIZED VIEW, JOB y TABLESPACE (SYSTEM ya los tiene, y el usuario que crea el script 00 también).
+Privilegios necesarios: CREATE TABLE, VIEW, SEQUENCE, PROCEDURE, TRIGGER, MATERIALIZED VIEW, JOB y TABLESPACE (por ejemplo, el usuario SYSTEM).
 
 ## Correcciones de la Entrega 1
 
